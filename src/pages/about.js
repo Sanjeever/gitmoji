@@ -12,32 +12,26 @@ const About = (): Node => (
     <main>
       <CarbonAd />
       <section>
-        <h1>About</h1>
+        <h1>关于</h1>
 
         <p>
-          <strong>Gitmoji is an emoji guide for GitHub commit messages</strong>.
-          Aims to be a standarization cheatsheet - guide for using{' '}
-          <a href="https://emoji.muan.co">emojis</a> on GitHub&#39;s commit
-          messages.
+          <strong>Gitmoji 是一份用于GitHub提交信息的表情符号指南</strong>。
+          旨在成为一个标准化的参考表格 —— 在 GitHub 的提交信息中使用{' '}
+          <a href="https://emoji.muan.co">emojis</a> 的指南。
         </p>
 
         <p>
-          <strong>Using emojis</strong> on <strong>commit messages</strong>{' '}
-          provides an <strong>easy way</strong> of{' '}
-          <strong>identifying the purpose or intention of a commit</strong> with
-          only looking at the emojis used. As there are a lot of different
-          emojis I found the need of creating a guide that can help to use
-          emojis easier.
+          在提交信息中使用<strong>使用 emojis</strong>
+          ，提供了一种简单的方法，只需看一下所使用的表情符号，就能识别提交的目的或意图。由于有很多不同的表情符号，我发现有必要创建一个指南，以帮助更容易使用表情符号。
         </p>
 
         <p>
-          This project is Open Source, that means everyone can participate,
-          suggesting, discussing and adding new emojis. Take a look at the{' '}
-          <Link href="#contributing-gitmoji">contributing section</Link> and{' '}
+          这个项目是开源的，这意味着每个人都可以参与，建议、讨论和添加新的表情符号。请看一下{' '}
+          <Link href="#contributing-gitmoji">contributing section</Link>和{' '}
           <a href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md">
             guidelines for contributing
           </a>
-          .
+          。
         </p>
 
         <div>
@@ -57,15 +51,14 @@ const About = (): Node => (
 
       <section>
         <h1>
-          Using gitmoji with{' '}
+          使用 gitmoji 通过{' '}
           <a href="https://github.com/carloscuesta/gitmoji-cli">gitmoji-cli</a>
         </h1>
 
         <p>
-          An easy solution for using gitmoji from your command line, is to
-          install{' '}
-          <a href="https://github.com/carloscuesta/gitmoji-cli">gitmoji-cli</a>.
-          A gitmoji interactive client for using emojis on commit messages.
+          从你的命令行使用 gitmoji 的一个简单解决方案是安装{' '}
+          <a href="https://github.com/carloscuesta/gitmoji-cli">gitmoji-cli</a>
+          。这是一个用于在提交信息中使用表情符号的 gitmoji 交互式客户端。
         </p>
 
         <pre>
@@ -74,23 +67,22 @@ const About = (): Node => (
       </section>
 
       <section>
-        <h1>Example of usage</h1>
+        <h1>范例</h1>
 
         <p>
-          In case you need some ideas to integrate gitmoji in your project,
-          here&#39;s a practical way to use it:
+          如果你需要一些想法来将 gitmoji
+          整合到你的项目中，这里有一个实用的使用方法：
         </p>
 
         <ul>
           <li>
-            <b>intention</b>: An emoji from the list.
+            <b>intention</b>: 一个 emoji.
           </li>
           <li>
-            <b>scope</b>: An optional string that adds contextual information
-            for the scope of the change.
+            <b>scope</b>: 一个可选的字符串，它为变化的范围增加了背景信息。
           </li>
           <li>
-            <b>message</b>: A brief explanation of the change.
+            <b>message</b>: 对这一变化的简要解释。
           </li>
         </ul>
 
@@ -100,7 +92,7 @@ const About = (): Node => (
       </section>
 
       <section>
-        <h1 id="contributing-gitmoji">Contributing to gitmoji</h1>
+        <h1 id="contributing-gitmoji">贡献给 gitmoji</h1>
 
         <p>
           Contributing to gitmoji is a piece of 🍰! This project is a static
