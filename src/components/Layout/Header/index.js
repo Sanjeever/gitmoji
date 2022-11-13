@@ -11,12 +11,22 @@ const Header = (props: Props): Element<'header'> => (
   <header className={styles.header}>
     <Logo />
     {props.withHeadline && (
-      <h2 className={styles.title}>An emoji guide for your commit messages</h2>
+      <h2 className={styles.title}>为你的提交信息提供表情符号指南</h2>
     )}
+    <h4 className={styles.title}>
+      forked from{' '}
+      <a
+        href="https://github.com/carloscuesta/gitmoji"
+        target="_blank"
+        rel="noreferrer"
+      >
+        carloscuesta/gitmoji
+      </a>
+    </h4>
     <div className={styles.buttons}>
       <Button
         icon="star"
-        link="https://github.com/carloscuesta/gitmoji"
+        link="https://github.com/Sanjeever/gitmoji"
         text="GitHub"
       />
       <Button
